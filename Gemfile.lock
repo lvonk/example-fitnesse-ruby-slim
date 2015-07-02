@@ -1,0 +1,18 @@
+GIT
+  remote: git@github.com:lvonk/rubyslim.git
+  revision: 4fcb221fb0d4ca6037b00c9bcf3acc7553f7b00d
+  specs:
+    rubyslim (0.1.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rubyslim!
+
+BUNDLED WITH
+   1.10.5

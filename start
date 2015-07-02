@@ -1,0 +1,6 @@
+WORK_DIR=`pwd`
+TEST_RUNNER=$WORK_DIR/bin/rubyslim_wrapper
+COMMAND_PATTERN=$TEST_RUNNER
+
+cd fitnesse
+java -DWORK_DIR="$WORK_DIR" -DTEST_RUNNER="$TEST_RUNNER" -DCOMMAND_PATTERN="$COMMAND_PATTERN" -jar fitnesse-standalone.jar -p 8888 -e 0  "$@"

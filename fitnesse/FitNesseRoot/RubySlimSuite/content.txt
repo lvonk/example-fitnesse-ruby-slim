@@ -1,0 +1,4 @@
+!define TEST_SYSTEM {slim}
+!path ${WORK_DIR}/fixtures
+
+!contents -R2 -g -p -f -h
